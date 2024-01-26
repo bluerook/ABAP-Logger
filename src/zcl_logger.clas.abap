@@ -440,7 +440,7 @@ CLASS ZCL_LOGGER IMPLEMENTATION.
         settings = zcl_logger_factory=>create_settings(
           )->set_usage_of_secondary_db_conn( second_db_conn
           )->set_autosave( auto_save ) ).
-    ELSE.
+    else.
       r_log ?= zcl_logger_factory=>create_log(
         object = object
         subobject = subobject
