@@ -467,7 +467,7 @@ CLASS ZCL_LOGGER IMPLEMENTATION.
         subobject = subobject
         desc = desc
         create_if_does_not_exist = create_if_does_not_exist ).
-    ENDIF.
+    endif.
   ENDMETHOD.
 
 
